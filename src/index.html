@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form
+      action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php"
+      method="post"
+    >
+      <input type="hidden" name="foo" value="bar" />
+      <input
+        type="text"
+        name="my_text"
+        value=""
+        placeholder="holding the place"
+      />
+      <textarea name="my_text" placeholder="scooby dooby doo, where are you?">
+      </textarea>
+      <input
+        type="checkbox"
+        name="checking-of-box"
+        value="1"
+        checked="checked"
+      />
+      <input
+        type="checkbox"
+        name="checking-of-box-none"
+        value="0"
+        checked="checked"
+      />
+      <input type="radio" name="options" value="yes" checked />
+      <input type="radio" name="options" value="no" />
+      <input type="radio" name="options" value="maybe so" />
+      <select name="pokemon">
+        <option value="bulbasaur" selected="selected">Bulbasaur</option>
+        <option value="pikachu">Pikachu</option>
+      </select>
+
+      <input type="submit" value="Save" name="submit" />
+      <input type="submit" value="Delete" name="submit" />
+    </form>
+  </body>
+</html>
